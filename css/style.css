@@ -16,7 +16,7 @@ body{
 
 main{
     text-align: center;
-    margin: 0 180px;
+    margin: 0 250px;
     font-size: 30px
 }
 
@@ -41,27 +41,32 @@ p{
 }
 
 img{
-    width: 35%;
+    width: 20%;
     float: left;
 }
 
 .info{
-    width: 65%;
+    padding: .6rem;
+    width: 80%;
     float: left;
-}
-
-span{
-    display: inline-block;
-    color: white;
-    font-size: 1rem;
 }
 
 .team_badg{
     font-size: 1rem;
 }
 
-
-
-.name, .position, .contact *{
+.name, .position, .contact{
     float: left;
+    display: inline-block;
+    color: white;
+    font-size: 1rem;
+    padding: .2rem;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.contact{
+    color: aqua;
 }
