@@ -13,18 +13,45 @@ body{
     background-color: rgb(6, 19, 66);
 }
 
-section{
+main{
     text-align: center;
     margin: 0 180px;
+    font-size: 30px
 }
 
 h1{
     color: rgb(231, 77, 77);
-    margin: 2rem 0;
+    font-size: 2rem;
+    margin: 1.5rem 0;
 }
 
 p{
     display: inline-block;
+    font-size: 1rem;
     color: white;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
+
+div{
+    background-color: blue;
+    width: 33%;
+}
+
+img{
+    width: 35%;
+}
+
+span{
+    display: inline-block;
+    color: white;
+}
+
+.team_badg{
+    font-size: 1rem;
+}
+
+.float_left{
+    float: left;
+    font-size: 33%;
+}
+pad
