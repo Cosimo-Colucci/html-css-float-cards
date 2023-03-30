@@ -9,3 +9,22 @@
     display: table;
     clear: both;
 }
+body{
+    background-color: rgb(6, 19, 66);
+}
+
+section{
+    text-align: center;
+    margin: 0 180px;
+}
+
+h1{
+    color: rgb(231, 77, 77);
+    margin: 2rem 0;
+}
+
+p{
+    display: inline-block;
+    color: white;
+    margin: 2rem 0;
+}
