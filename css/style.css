@@ -9,6 +9,7 @@
     display: table;
     clear: both;
 }
+
 body{
     background-color: rgb(6, 19, 66);
 }
@@ -32,26 +33,35 @@ p{
     margin: 1.5rem 0;
 }
 
-div{
-    background-color: blue;
+.personal-badg{
+    display: inline-block;
+    background-color: rgb(6, 19, 66);
     width: 33%;
+    padding: 1rem;
 }
 
 img{
     width: 35%;
+    float: left;
+}
+
+.info{
+    width: 65%;
+    float: left;
 }
 
 span{
     display: inline-block;
     color: white;
+    font-size: 1rem;
 }
 
 .team_badg{
     font-size: 1rem;
 }
 
-.float_left{
+
+
+.name, .position, .contact *{
     float: left;
-    font-size: 33%;
 }
-pad
