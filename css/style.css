@@ -11,14 +11,15 @@
 }
 
 body{
-    background-color: rgb(6, 19, 66);
     font-family: 'Alkatra', cursive;
 }
 
 main{
+    margin: 0 13rem;
+}
+
+section.title{
     text-align: center;
-    margin: 0 250px;
-    font-size: 30px
 }
 
 h1{
@@ -27,49 +28,35 @@ h1{
     margin: 1.5rem 0;
 }
 
-p{
-    display: inline-block;
-    font-size: 1rem;
-    color: white;
-    margin: 1.5rem 0;
+p.text-of-title{
+    margin: 2rem 0;
 }
 
-section.float-left
+section.float-left, div.float-left, img{
+    float: left;
+}
 
-.personal-badg{
-    display: inline-block;
-    background-color: rgb(6, 19, 66);
+section.all-card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.personal-card{
+    background-color: black;
     width: 33%;
-    padding: 1rem;
+    border: .8rem solid white;
 }
 
 img{
-    width: 20%;
-    float: left;
+    width: 40%;
 }
 
-.info{
-    padding: .6rem;
-    width: 80%;
-    float: left;
-}
-
-.team_badg{
-    font-size: 1rem;
-}
-
-.name, .position, .contact{
-    float: left;
-    display: inline-block;
+div.info{
+    font-size: 0.8rem;
+    width: 60%;
     color: white;
-    font-size: 1rem;
-    padding: .2rem;
+    padding: 1rem;
 }
-
-.name{
-    font-size: 1.5rem;
-}
-
-.contact{
+a.contact{
     color: aqua;
 }
+
